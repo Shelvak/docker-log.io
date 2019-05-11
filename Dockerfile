@@ -18,4 +18,6 @@ RUN mkdir -p /home/logio/.log.io/
 
 ADD start.sh /start.sh
 
+RUN chmod 777 /start.sh
+
 CMD ["/start.sh"]
